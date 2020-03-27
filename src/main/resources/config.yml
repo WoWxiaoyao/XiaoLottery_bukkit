@@ -1,0 +1,36 @@
+#模式选择
+#Random 所有玩家获奖率相同
+#More 购买数量与获奖率成正比
+Mode: "Random"
+#开奖时间 (秒)
+DrawTime: 600
+
+#每张彩票价格
+TicketCost: 100.0
+
+#允许购买的最大数量(-1则为无限)
+MaxTickets: 100
+
+#玩家购买彩票成功后进行全服公告
+BuyBroadcast: true
+
+#倒计时提醒 （有玩家购买后才会提醒）
+RemindTimes:
+  - 50
+  - 40
+  - 30
+  - 20
+  - 10
+  - 5
+
+#只有当有玩家在线的情况下才会进行倒计时以及开奖公告
+OnlineBroadcast: false
+
+#重启保护
+Backup: []
+
+#执行任务
+task: []
+
+#配置文件版本
+version: 1.0.0

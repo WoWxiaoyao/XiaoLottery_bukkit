@@ -1,0 +1,20 @@
+name: XiaoLottery
+main: zbv5.cn.XiaoLottery.Main
+version: 1.0.0
+api: 1.0.0
+author: 逍遥
+depend: [Vault]
+commands:
+  XiaoLottery:
+    description: XiaoLottery Command.
+    aliases: [cp,Lottery]
+permissions:
+  Lottery.buy:
+    description: 购买彩票所需权限
+    default: true
+  Lottery.info:
+    description: 查询彩票所需权限
+    default: true
+  Lottery.admin:
+    description: 使用全部功能所需权限
+    default: op

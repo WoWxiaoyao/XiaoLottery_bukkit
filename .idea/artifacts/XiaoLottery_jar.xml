@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="XiaoLottery:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/XiaoLottery_jar</output-path>
+    <root id="archive" name="XiaoLottery.jar">
+      <element id="module-output" name="XiaoLottery" />
+    </root>
+  </artifact>
+</component>
